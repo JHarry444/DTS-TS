@@ -26,3 +26,5 @@ class Bird {
         console.log("Flap flap");
     }
 }
+const birb = new Bird(200);
+// birb.maxHeight = 12; breaks cos readonly

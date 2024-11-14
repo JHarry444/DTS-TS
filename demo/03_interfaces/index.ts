@@ -48,3 +48,6 @@ class Bird implements Flyable {
     }
     
 }
+
+const birb = new Bird(200);
+// birb.maxHeight = 12; breaks cos readonly
