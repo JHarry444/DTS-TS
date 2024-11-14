@@ -59,3 +59,13 @@ console.log("DAY:", day);
 let dayStr: string = Day[2];
 
 console.log("DAY:", dayStr);
+
+
+let wut: unknown = "twenty seven";
+
+console.log((wut as number) > 20);
+console.log((wut as string).charAt(0));
+
+if (typeof wut === "string") {
+    console.log((wut as string).charAt(0));
+}

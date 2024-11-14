@@ -41,3 +41,9 @@ let day = Day.Monday;
 console.log("DAY:", day);
 let dayStr = Day[2];
 console.log("DAY:", dayStr);
+let wut = "twenty seven";
+console.log(wut > 20);
+console.log(wut.charAt(0));
+if (typeof wut === "string") {
+    console.log(wut.charAt(0));
+}
